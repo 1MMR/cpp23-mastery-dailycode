@@ -1,0 +1,10 @@
+# Memory Management & RAII Drills
+
+add_executable(drill_16_smart_pointers drill_16_smart_pointers.cpp)
+set_target_properties(drill_16_smart_pointers PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_17_raii_pattern drill_17_raii_pattern.cpp)
+set_target_properties(drill_17_raii_pattern PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_18_resource_management drill_18_resource_management.cpp)
+set_target_properties(drill_18_resource_management PROPERTIES CXX_STANDARD 23)

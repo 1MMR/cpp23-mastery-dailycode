@@ -1,0 +1,13 @@
+# STL Containers Practice
+
+add_executable(vector_operations vector_operations.cpp)
+set_target_properties(vector_operations PROPERTIES CXX_STANDARD 23)
+
+add_executable(map_multimap_problems map_multimap_problems.cpp)
+set_target_properties(map_multimap_problems PROPERTIES CXX_STANDARD 23)
+
+add_executable(set_operations_practice set_operations_practice.cpp)
+set_target_properties(set_operations_practice PROPERTIES CXX_STANDARD 23)
+
+add_executable(heap_priority_queue heap_priority_queue.cpp)
+set_target_properties(heap_priority_queue PROPERTIES CXX_STANDARD 23)

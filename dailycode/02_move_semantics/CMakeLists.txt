@@ -1,0 +1,13 @@
+# Move Semantics Drills
+
+add_executable(drill_05_lvalue_rvalue drill_05_lvalue_rvalue.cpp)
+set_target_properties(drill_05_lvalue_rvalue PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_06_move_constructor drill_06_move_constructor.cpp)
+set_target_properties(drill_06_move_constructor PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_07_move_assignment drill_07_move_assignment.cpp)
+set_target_properties(drill_07_move_assignment PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_08_perfect_forwarding drill_08_perfect_forwarding.cpp)
+set_target_properties(drill_08_perfect_forwarding PROPERTIES CXX_STANDARD 23)

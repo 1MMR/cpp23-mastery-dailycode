@@ -1,0 +1,10 @@
+# C++20 Concepts Drills
+
+add_executable(drill_13_concept_basics drill_13_concept_basics.cpp)
+set_target_properties(drill_13_concept_basics PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_14_concept_constraints drill_14_concept_constraints.cpp)
+set_target_properties(drill_14_concept_constraints PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_15_ranges_library drill_15_ranges_library.cpp)
+set_target_properties(drill_15_ranges_library PROPERTIES CXX_STANDARD 23)

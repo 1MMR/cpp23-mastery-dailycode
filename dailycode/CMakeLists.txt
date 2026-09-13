@@ -1,0 +1,7 @@
+# Daily Code Drills
+add_subdirectory(01_syntax_fundamentals)
+add_subdirectory(02_move_semantics)
+add_subdirectory(03_templates)
+add_subdirectory(04_concepts)
+add_subdirectory(05_memory_management)
+add_subdirectory(06_metaprogramming)

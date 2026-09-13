@@ -1,0 +1,10 @@
+# Template Metaprogramming Drills
+
+add_executable(drill_19_compile_time_computation drill_19_compile_time_computation.cpp)
+set_target_properties(drill_19_compile_time_computation PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_20_type_traits drill_20_type_traits.cpp)
+set_target_properties(drill_20_type_traits PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_21_crtp drill_21_crtp.cpp)
+set_target_properties(drill_21_crtp PROPERTIES CXX_STANDARD 23)

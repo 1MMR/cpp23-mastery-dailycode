@@ -1,0 +1,13 @@
+# Advanced Algorithm Problems
+
+add_executable(two_pointer_technique two_pointer_technique.cpp)
+set_target_properties(two_pointer_technique PROPERTIES CXX_STANDARD 23)
+
+add_executable(sliding_window sliding_window.cpp)
+set_target_properties(sliding_window PROPERTIES CXX_STANDARD 23)
+
+add_executable(dynamic_programming dynamic_programming.cpp)
+set_target_properties(dynamic_programming PROPERTIES CXX_STANDARD 23)
+
+add_executable(graph_algorithms graph_algorithms.cpp)
+set_target_properties(graph_algorithms PROPERTIES CXX_STANDARD 23)

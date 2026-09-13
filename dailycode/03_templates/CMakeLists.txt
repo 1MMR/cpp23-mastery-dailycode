@@ -1,0 +1,13 @@
+# Templates Drills
+
+add_executable(drill_09_function_templates drill_09_function_templates.cpp)
+set_target_properties(drill_09_function_templates PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_10_class_templates drill_10_class_templates.cpp)
+set_target_properties(drill_10_class_templates PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_11_variadic_templates drill_11_variadic_templates.cpp)
+set_target_properties(drill_11_variadic_templates PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_12_sfinae_metaprogramming drill_12_sfinae_metaprogramming.cpp)
+set_target_properties(drill_12_sfinae_metaprogramming PROPERTIES CXX_STANDARD 23)

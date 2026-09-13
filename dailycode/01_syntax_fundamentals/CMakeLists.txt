@@ -1,0 +1,13 @@
+# Syntax Fundamentals Drills
+
+add_executable(drill_01_variables drill_01_variables.cpp)
+set_target_properties(drill_01_variables PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_02_references drill_02_references.cpp)
+set_target_properties(drill_02_references PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_03_const_correctness drill_03_const_correctness.cpp)
+set_target_properties(drill_03_const_correctness PROPERTIES CXX_STANDARD 23)
+
+add_executable(drill_04_classes drill_04_classes.cpp)
+set_target_properties(drill_04_classes PROPERTIES CXX_STANDARD 23)
